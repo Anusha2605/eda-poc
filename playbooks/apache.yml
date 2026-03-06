@@ -9,7 +9,7 @@
     apache_pkg_name: httpd
     apache_document_root: /var/www/html
     apache_index_file: /var/www/html/index.html
-    apache_test_url: http://ec2-51-20-56-9.eu-north-1.compute.amazonaws.com/
+    apache_test_url: http://127.0.0.1/
 
   tasks:
     - name: Install Apache package
